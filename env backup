@@ -1,0 +1,10 @@
+POSTGRES_USERNAME=postgres
+POSTGRES_PASSWORD=manhmo123
+POSTGRES_HOST=database-2.cvsa34kxadkz.us-east-1.rds.amazonaws.com
+POSTGRES_DB=postgres
+AWS_BUCKET=project3-manhvd
+AWS_REGION=us-east-1
+AWS_PROFILE=manhvd-udacity
+JWT_SECRET=hello
+URL=http://localhost:8080
+PORT=8080
