@@ -17,9 +17,6 @@ import {V0_USER_MODELS} from './controllers/v0/model.index';
   await sequelize.sync();
 
   const app = express();
-  console.log(process.env.PORT)
-  console.log(process.env.JWT_SECRET)
-
   const port = process.env.PORT || 8080;
 
   app.use(bodyParser.json());
@@ -47,7 +44,6 @@ import {V0_USER_MODELS} from './controllers/v0/model.index';
 
 
   // Start the Server
-  console.log('config', config);
   app.listen( port, () => {
     console.log(`server listen in ${port}`);
     console.log( `server running ${config.url}` );
